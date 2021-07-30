@@ -1,0 +1,15 @@
+.Menu-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Signature li,
+.Lunch-Sets li,
+.Dinner li {
+  list-style-type: none;
+}
+
+.Title {
+  text-align: center;
+}
