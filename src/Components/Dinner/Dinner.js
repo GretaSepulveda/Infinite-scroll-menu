@@ -3,54 +3,54 @@ import "./Dinner.css";
 
 export default function Dinner() {
   return (
-    <div className="Dinner">
+    <div className="Dinner-Container">
       <h3 className="Title">DINNER</h3>
-      <ul>
-        <li>SMALL JUICY STEAMED DUMPLINGS $12</li>
-        <ul>
-          <li>Potato/ Chicken/ Cheese</li>
-        </ul>
-        <li>ROASTED RED POTATOES WITH ROSEMARY $15.5</li>
-        <ul>
-          <li>Potatoes/ Rosemary/ Butter</li>
-        </ul>
-        <li>BLACK BEAN SWEAT POTATO QUINOA MEAT(LESS)LOAF $12</li>
-        <ul>
-          <li>Bean/ Potato</li>
-        </ul>
-        <li>WILD MUSHROOM BUCATANI WITH KALE $14.5</li>
-        <ul>
-          <li>Mushroom/ Veggie/ White sauce</li>
-        </ul>
-        <li>PRAWN SAUSAGE CASSOULET $30.5</li>
-        <ul>
-          <li>Prawn/ Sausage/ Tomato</li>
-        </ul>
-        <li>MEATLOAF WITH BLACK PEPPER HONEY-BBQ $19.9</li>
-        <ul>
-          <li>Pepper/ Chicken/ Honey</li>
-        </ul>
-        <li>BRAISED CHICKEN BREAST WITH WHITE WINE AND SHALLOTS $29.9</li>
-        <ul>
-          <li>Beef/ Onion/ Tomatos</li>
-        </ul>
-        <li>APPLE SMOKED CHICKEN WITH WHITE SAUCE $24.5</li>
-        <ul>
-          <li>Chicken/ Apple/ Tomato</li>
-        </ul>
-        <li>LEMON_ROSEMARY CHICKEN $18.9</li>
-        <ul>
-          <li>Chicken/ Rosemary/ Lemon</li>
-        </ul>
-        <li>GRILLED PORK WITH PRESERVED LEMONS $22</li>
-        <ul>
-          <li>Pork/ Lemons/ Onion</li>
-        </ul>
-        <li>PORK TENDERLOIN MARINATED IN YOGURT $20</li>
-        <ul>
-          <li>Pork/ Tenderloin/ Yogurt</li>
-        </ul>
-      </ul>
+      <div className="Dinner">
+        <div>
+          <h5>SMALL JUICY STEAMED DUMPLINGS $12</h5>
+          <p>Potato/ Chicken/ Cheese</p>
+        </div>
+        <div>
+          <h5>ROASTED RED POTATOES WITH ROSEMARY $15.5</h5>
+          <p>Potatoes/ Rosemary/ Butter</p>
+        </div>
+        <div>
+          <h5>BLACK BEAN SWEAT POTATO QUINOA MEAT(LESS)LOAF $12</h5>
+          <p>Bean/ Potato</p>
+        </div>
+        <div>
+          <h5>WILD MUSHROOM BUCATANI WITH KALE $14.5</h5>
+          <p>Mushroom/ Veggie/ White sauce</p>
+        </div>
+        <div>
+          <h5>PRAWN SAUSAGE CASSOULET $30.5</h5>
+          <p>Prawn/ Sausage/ Tomato</p>
+        </div>
+        <div>
+          <h5>MEATLOAF WITH BLACK PEPPER HONEY-BBQ $19.9</h5>
+          <p>Pepper/ Chicken/ Honey</p>
+        </div>
+        <div>
+          <h5>BRAISED CHICKEN BREAST WITH WHITE WINE AND SHALLOTS $29.9</h5>
+          <p>Beef/ Onion/ Tomatos</p>
+        </div>
+        <div>
+          <h5>APPLE SMOKED CHICKEN WITH WHITE SAUCE $24.5</h5>
+          <p>Chicken/ Apple/ Tomato</p>
+        </div>
+        <div>
+          <h5>LEMON_ROSEMARY CHICKEN $18.9</h5>
+          <p>Chicken/ Rosemary/ Lemon</p>
+        </div>
+        <div>
+          <h5>GRILLED PORK WITH PRESERVED LEMONS $22</h5>
+          <p>Pork/ Lemons/ Onion</p>
+        </div>
+        <div>
+          <h5>PORK TENDERLOIN MARINATED IN YOGURT $20</h5>
+          <p>Pork/ Tenderloin/ Yogurt</p>
+        </div>
+      </div>
     </div>
   );
 }
