@@ -1,19 +1,14 @@
 import React from "react";
-import "./footercss";
-
-
+import "./Footer.css";
 
 <div>
-    <p>© Copyright Grand Avenue</p>
-</div>
-
-
+  <p>© Copyright Grand Avenue</p>
+</div>;
 
 export default function Footer() {
   return (
     <div>
-      <h2>Footer placeholder</h2>
+      <h2>Footer placeholdeR</h2>
     </div>
   );
 }
-
