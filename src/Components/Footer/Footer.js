@@ -1,4 +1,13 @@
 import React from "react";
+import "./footercss";
+
+
+
+<div>
+    <p>© Copyright Grand Avenue</p>
+</div>
+
+
 
 export default function Footer() {
   return (
@@ -7,3 +16,4 @@ export default function Footer() {
     </div>
   );
 }
+
