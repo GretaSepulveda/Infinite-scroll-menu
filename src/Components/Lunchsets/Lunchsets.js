@@ -1,5 +1,6 @@
 import React from "react";
 import "./Lunchsets.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Lunchsets() {
   return (
@@ -8,6 +9,7 @@ export default function Lunchsets() {
       <div className="Lunch-Sets">
         <div>
           <h5>BAKED POTATO PIZZA $12</h5>
+          <FontAwesomeIcon icon="fas-star" />
           <p>Potato/ Bread/ Cheese</p>
         </div>
         <div>
