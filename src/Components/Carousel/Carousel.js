@@ -6,6 +6,9 @@ export default function Carousel() {
 
       <h2 className="Carousel-img">Carousel placeholder</h2>
 
+      
+    
+
       <div>
         <h2>top carousel placeholder</h2>
         <h2 className="Carousel-img">Top carousel img placeholder</h2>
