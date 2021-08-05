@@ -1,12 +1,14 @@
 import React from "react";
 import "./Footer.css";
 
+<div>
+  <p>© Copyright Grand Avenue</p>
+</div>;
+
 export default function Footer() {
   return (
-    <div ClassName="Footer-Container">
-      <div>
-        <p>© Copyright Grand Avenue</p>
-      </div>;
+    <div>
+      <h2>Footer placeholder</h2>
     </div>
   );
 }
