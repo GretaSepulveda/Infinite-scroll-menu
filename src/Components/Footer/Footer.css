@@ -1,4 +1,7 @@
-footer {
-color:black
-
+.Footer-Container {
+background-color: Black;
+color: white;
+}
+.Sub-Footer{
+    text-align: center;
 }
