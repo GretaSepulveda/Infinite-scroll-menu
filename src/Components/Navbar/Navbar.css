@@ -1,3 +1,9 @@
-.MuiToolbar-root.MuiToolbar-regularMuiToolbar-gutters {
-    color: blue;
+.appbar {
+background-image: url('../Images/dumplingpic.jpg');
 }
+
+body {
+    background-image: url("Dumplingplate.jpeg");
+    background-color: #cccccc;
+}
+
