@@ -1,4 +1,10 @@
-footer {
-color:black
-
+.Footer-Container {
+padding: 10px;
+Display: flex;
+justify-content: Space-between;
+background-color: Black;
+color: white;
+}
+.Sub-Footer{
+    text-align: center;
 }

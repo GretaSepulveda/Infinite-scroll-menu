@@ -1,8 +1,14 @@
+
 .CarouselPlaceholder {
   height:950px;
   width: 950px;
 
-}
+
+.Carousel-img {
+  text-align: center;
+
+
+
 
 .Carousel-Container {
   justify-content: center;
