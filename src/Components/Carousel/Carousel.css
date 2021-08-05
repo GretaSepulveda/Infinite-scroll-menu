@@ -1,7 +1,20 @@
+
+.CarouselPlaceholder {
+  height:950px;
+  width: 950px;
+
+
 .Carousel-img {
   text-align: center;
-<<<<<<< HEAD
-=======
-  background-image: url('../Images/dumplingpic.jpg');
->>>>>>> 07e3ed856e86745c5e32df09b645c65373c54ced
+
+
+
+
+.Carousel-Container {
+  justify-content: center;
+  justify-self: center;
+  min-height: 950px;
+  min-width: auto;
+
 }
+
