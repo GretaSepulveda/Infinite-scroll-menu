@@ -5,12 +5,19 @@ export default function Footer() {
   return (
     <div className="Footer-Container">
       <div>
-        <h2>Footer placeholder</h2>
+        <h5>Recent Posts</h5>
       </div>
-      <div className="Sub-Footer">
-        <p>&copy; Applewhite and Sepulveda 2021</p>
+      <div>
+        <h5>Gallery</h5>
+      </div>
+      <div>
+        <h5>Contact Info</h5>
+        <p>1402 7th St, El Paso, TX</p>
+        <p>(915)334-9427</p>
+        <p>info@grandrestauranttheme.com</p>
       </div>
     </div>
+    
 
   );
 }
