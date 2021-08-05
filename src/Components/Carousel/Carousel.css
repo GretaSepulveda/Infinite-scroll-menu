@@ -1,4 +1,14 @@
-.Carousel-img {
-  text-align: center;
-  background-image: url('../Images/dumplingpic.jpg');
+.CarouselPlaceholder {
+  height:950px;
+  width: 950px;
+
 }
+
+.Carousel-Container {
+  justify-content: center;
+  justify-self: center;
+  min-height: 950px;
+  min-width: auto;
+
+}
+

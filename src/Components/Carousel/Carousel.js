@@ -7,9 +7,9 @@ export default function Carousel() {
     <div classname="Carousel-Container">
 
       <h2 className="Carousel-img">Carousel placeholder</h2>
-      <img src={Dumplingplate} alt=""/>
+      <img src={Dumplingplate} alt="Dumpling"/>
       
-    
+
 
       <div>
         <h2>top carousel placeholder</h2>
