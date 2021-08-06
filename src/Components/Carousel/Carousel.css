@@ -1,20 +1,20 @@
-
 .CarouselPlaceholder {
   height:950px;
   width: 950px;
+}
 
-
-.Carousel-img {
-  text-align: center;
-
-
-
-
-.Carousel-Container {
-  justify-content: center;
-  justify-self: center;
-  min-height: 950px;
-  min-width: auto;
+Header {
+background-image: cross-fade();
+height: 950px;
+width: 950;
 
 }
+
+
+
+
+
+
+
+
 
