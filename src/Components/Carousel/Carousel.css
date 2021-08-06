@@ -1,9 +1,4 @@
-.CarouselPlaceholder {
-  height:950px;
-  width: 950px;
-}
-
-Header {
+.Dumplingplate {
 background-image: cross-fade();
 height: 950px;
 width: 950;
