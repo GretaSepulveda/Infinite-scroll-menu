@@ -1,10 +1,10 @@
 import React from "react";
 import Dumplingplate from "../Images/Dumplingplate.jpeg";
 
-
 export default function Carousel() {
   return (
     <div classname="Carousel-Container">
+
 
       <h2 className="Carousel-img">Carousel placeholder</h2>
       <img src={Dumplingplate} alt="Dumpling"/>
@@ -14,6 +14,9 @@ export default function Carousel() {
         <h2 className="Carousel-img">Top carousel img placeholder</h2>
 
       </div>
+
+      <img src={Dumplingplate} alt="Dumpling" />
+
     </div>
   );
 }
