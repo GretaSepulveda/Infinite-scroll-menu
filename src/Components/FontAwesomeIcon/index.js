@@ -1,4 +1,9 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faStar, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStar,
+  faEnvelope,
+  faPhone,
+  faLocationArrow,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faStar, faEnvelope);
+library.add(faStar, faEnvelope, faPhone, faLocationArrow);

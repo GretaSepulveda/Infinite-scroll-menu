@@ -13,14 +13,19 @@ export default function Footer() {
       </div>
       <div>
         <h5>Contact Info</h5>
-        <p>1402 7th St, El Paso, TX</p>
-        <p>(915)334-9427</p>
-        <p>info@grandrestauranttheme.com</p>
+        <p>
+          <FontAwesomeIcon icon="location-arrow" color="grey" />
+          1402 7th St, El Paso, TX
+        </p>
+        <p>
+          <FontAwesomeIcon icon="phone" color="grey" />
+          (915)334-9427
+        </p>
+        <p>
+          <FontAwesomeIcon icon="envelope" color="grey" />
+          info@grandrestauranttheme.com
+        </p>
       </div>
     </div>
-    
-
   );
 }
- 
-
