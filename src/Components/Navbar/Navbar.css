@@ -1,1 +1,18 @@
+.MuiToolbar-regular {
+display: flex;
+justify-content: right;
+}
 
+.MuiToolbar-gutters {
+    padding-left: 500px;
+    /* padding-right: 44px; */
+}
+
+.MuiToolbarrootMuiToolbarregularMuiToolbargutters {
+padding-left: 500px;
+padding-right: 0;
+}
+
+.Toolbar {
+    padding-left: 500px;
+}
