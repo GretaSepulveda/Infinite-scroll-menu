@@ -1,20 +1,7 @@
-.CarouselPlaceholder {
-  height:950px;
-  width: 950px;
+.Carousel-Container {
+  color: white;
+  height: 125vh;
+  background-image: url(../Images/Dumplingplate.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-Header {
-background-image: cross-fade();
-height: 950px;
-width: 950;
-
-}
-
-
-
-
-
-
-
-
-
