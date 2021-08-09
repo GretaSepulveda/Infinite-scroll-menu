@@ -23,38 +23,23 @@ export default function Dinner() {
         </div>
         <div>
           <h5>BLACK BEAN SWEAT POTATO QUINOA MEAT(LESS)LOAF $12</h5>
-          <p>
-            Bean/ Potato
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Bean/ Potato</p>
         </div>
         <div>
           <h5>WILD MUSHROOM BUCATANI WITH KALE $14.5</h5>
-          <p>
-            Mushroom/ Veggie/ White sauce
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Mushroom/ Veggie/ White sauce</p>
         </div>
         <div>
           <h5>PRAWN SAUSAGE CASSOULET $30.5</h5>
-          <p>
-            Prawn/ Sausage/ Tomato
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Prawn/ Sausage/ Tomato</p>
         </div>
         <div>
           <h5>MEATLOAF WITH BLACK PEPPER HONEY-BBQ $19.9</h5>
-          <p>
-            Pepper/ Chicken/ Honey
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Pepper/ Chicken/ Honey</p>
         </div>
         <div>
           <h5>BRAISED CHICKEN BREAST WITH WHITE WINE AND SHALLOTS $29.9</h5>
-          <p>
-            Beef/ Onion/ Tomatos
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Beef/ Onion/ Tomatos</p>
         </div>
         <div>
           <h5>APPLE SMOKED CHICKEN WITH WHITE SAUCE $24.5</h5>
@@ -65,10 +50,7 @@ export default function Dinner() {
         </div>
         <div>
           <h5>LEMON_ROSEMARY CHICKEN $18.9</h5>
-          <p>
-            Chicken/ Rosemary/ Lemon
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Chicken/ Rosemary/ Lemon</p>
         </div>
         <div>
           <h5>GRILLED PORK WITH PRESERVED LEMONS $22</h5>
@@ -79,10 +61,7 @@ export default function Dinner() {
         </div>
         <div>
           <h5>PORK TENDERLOIN MARINATED IN YOGURT $20</h5>
-          <p>
-            Pork/ Tenderloin/ Yogurt
-            <FontAwesomeIcon icon="star" color="gold" />
-          </p>
+          <p>Pork/ Tenderloin/ Yogurt</p>
         </div>
       </div>
     </div>
