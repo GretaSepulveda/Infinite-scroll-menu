@@ -1,3 +1,4 @@
+
 .Dumpling {
 background-image: url('../Images/Dumplingplate.jpeg');
 background-size: cover;
@@ -10,4 +11,13 @@ height: 100px;
 
 
 
+
+
+.Carousel-Container {
+  color: white;
+  height: 125vh;
+  background-image: url(../Images/Dumplingplate.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
