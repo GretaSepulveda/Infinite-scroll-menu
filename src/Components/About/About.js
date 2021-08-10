@@ -4,8 +4,8 @@ import PotStickers from "../Images/PotStickers.jpeg";
 
 export default function About() {
   return (
-    <div classname="Story-Container">
-      <div classname="Our-Story">
+    <div className="Story-Container">
+      <div className="Our-Story">
         <h3>
           Until I discovered our story I was never really interested in anything
         </h3>
