@@ -1,11 +1,11 @@
+.Story-Container {
+  line-height: 0.15em;
+}
+
 .Our-Story {
   text-align: center;
 }
-
-.img {
-border: 2px solid black;
-width:600px;
-height:200px;
-background-size: contain;
+.PotStickers-container {
+  display: flex;
+  flex-direction: row;
 }
- 

@@ -1,22 +1,10 @@
-.Dumpling {
-background-image: url('../Images/Dumplingplate.jpeg');
-background-size: cover;
-background-repeat: no-repeat;
-width: 100px;
-height: 100px;
-}
-
-
-
-
-
-
-
 .Carousel-Container {
   color: white;
-  height: 125vh;
+  line-height: 0.15em;
+  height: 95vh;
   background-image: url(../Images/Dumplingplate.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: none;
+  text-align: center;
 }
-
