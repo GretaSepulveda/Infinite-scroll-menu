@@ -6,13 +6,24 @@ export default function About() {
   return (
     <div className="Story-Container">
       <div className="Our-Story">
-        <h3>
+        <h4>
           Until I discovered our story I was never really interested in anything
-        </h3>
-        <h5>Our Founder John Phillipe</h5>
+        </h4>
+        <h5 id="Dancing-script">Our Founder John Phillipe</h5>
       </div>
       <div className="PotStickers-container">
-        <img src={PotStickers} alt="Pot stickers" />
+        <img
+          src={PotStickers}
+          alt="Pot stickers"
+          width="400px"
+          height="400px"
+        />
+        <div className="Discover-story">
+          <h4 className="Discover" id="Dancing-script">
+            Discover
+          </h4>
+          <p>our story</p>
+        </div>
       </div>
     </div>
   );
