@@ -1,12 +1,10 @@
-.Dumplingplate {
-background-image: cross-fade();
-height: 950px;
-width: 950;
-
+.Dumpling {
+background-image: url('../Images/Dumplingplate.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+width: 100px;
+height: 100px;
 }
-
-
-
 
 
 

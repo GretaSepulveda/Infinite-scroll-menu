@@ -1,3 +1,5 @@
+import "./Components/FontAwesomeIcon";
+
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Menu from "./Components/Menu/Menu";
