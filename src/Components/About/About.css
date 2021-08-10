@@ -1,3 +1,11 @@
+.Story-Container {
+  line-height: 0.15em;
+}
+
 .Our-Story {
   text-align: center;
+}
+.PotStickers-container {
+  display: flex;
+  flex-direction: row;
 }
