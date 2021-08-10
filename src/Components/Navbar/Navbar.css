@@ -1,4 +1,5 @@
-.MuiToolbar-root  {
-    float: right;
-    text-align: right;
+.navbar{
+float:right;
+text-align: right;
+justify-content: right;
 }
