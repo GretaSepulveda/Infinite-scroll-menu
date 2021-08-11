@@ -11,5 +11,7 @@
   color: white;
   background-color: #cb2212;
   padding: 5px;
-  width: 15em;
+  width: 20em;
+  border-radius: 1%;
+  line-height: 0.15em;
 }
