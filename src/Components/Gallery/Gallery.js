@@ -1,4 +1,7 @@
 import React from "react";
+import Gallery from 'react-grid-gallery';
+
+
 
 export default function Gallery() {
   return (
