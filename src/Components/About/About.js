@@ -7,9 +7,10 @@ export default function About() {
     <div className="Story-Container">
       <div className="Our-Story">
         <h4>
-          Until I discovered our story I was never really interested in anything
+          Until I discovered cooking I was never really interested in anything
         </h4>
-        <h5 id="Dancing-script">Our Founder John Phillipe</h5>
+        <p>Our founder John Phillipe</p>
+        <h5 id="Dancing-script">John Phillipe</h5>
       </div>
       <div className="PotStickers-container">
         <img
