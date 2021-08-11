@@ -9,3 +9,8 @@
   display: flex;
   flex-direction: row;
 }
+
+.Specific-text {
+  color: #aca358;
+  background: transparent;
+}

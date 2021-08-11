@@ -2,9 +2,18 @@
   color: white;
   line-height: 0.15em;
   height: 95vh;
+  width: 100vw;
   background-image: url(../Images/Dumplingplate.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: none;
-  text-align: center;
+}
+
+.Welcome-Message {
+  padding-top: 18em;
+  padding-left: 10em;
+}
+
+.Specific-text {
+  color: #aca358;
+  background: transparent;
 }

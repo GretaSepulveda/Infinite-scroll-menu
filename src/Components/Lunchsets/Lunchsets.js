@@ -11,21 +11,21 @@ export default function Lunchsets() {
           <h5>BAKED POTATO PIZZA $12</h5>
           <p>
             Potato/ Bread/ Cheese
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
           <h5>PORK TENDERLOIN MARINATED IN YOGURT $20 </h5>
           <p>
             Pork/ Tenderloin/ Yogurt{" "}
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
           <h5>GRILLED PORK WITH PRESERVED LEMONS $22 </h5>
           <p>
             Pork/ Lemons/ Onion
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
