@@ -11,14 +11,14 @@ export default function Dinner() {
           <h5>SMALL JUICY STEAMED DUMPLINGS $12</h5>
           <p>
             Potato/ Chicken/ Cheese
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
           <h5>ROASTED RED POTATOES WITH ROSEMARY $15.5</h5>
           <p>
             Potatoes/ Rosemary/ Butter
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
@@ -45,7 +45,7 @@ export default function Dinner() {
           <h5>APPLE SMOKED CHICKEN WITH WHITE SAUCE $24.5</h5>
           <p>
             Chicken/ Apple/ Tomato
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
@@ -56,7 +56,7 @@ export default function Dinner() {
           <h5>GRILLED PORK WITH PRESERVED LEMONS $22</h5>
           <p>
             Pork/ Lemons/ Onion
-            <FontAwesomeIcon icon="star" color="gold" />
+            <FontAwesomeIcon icon="star" color="#aca358" />
           </p>
         </div>
         <div>
