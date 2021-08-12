@@ -1,17 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Open+Sans+Condensed:wght@300&display=swap");
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .Parallax {
-  height: 30em;
+  height: 28em;
 }
 
 #Dancing-script {
   font-family: "Dancing Script", cursive;
-  font-size: 1.55em;
+  font-size: 1.65em;
 }
 
 code {
