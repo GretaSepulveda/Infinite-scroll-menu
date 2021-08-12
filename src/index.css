@@ -5,6 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Parallax {
+  height: 30em;
+}
+
 #Dancing-script {
   font-family: "Dancing Script", cursive;
   font-size: 1.55em;
