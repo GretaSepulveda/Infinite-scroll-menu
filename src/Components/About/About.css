@@ -1,9 +1,6 @@
 .Story-Container {
   line-height: 0.15em;
-<<<<<<< HEAD
-=======
   padding-bottom: 5em;
->>>>>>> 21266c5f67252d03ff40041daf04d43ea57511c3
 }
 
 .Our-Story {
@@ -12,13 +9,9 @@
 .PotStickers-container {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
-}
-=======
 }
 
 .Specific-text {
   color: #aca358;
   background: transparent;
 }
->>>>>>> 21266c5f67252d03ff40041daf04d43ea57511c3
