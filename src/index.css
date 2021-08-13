@@ -1,14 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Open+Sans+Condensed:wght@300&display=swap");
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 }
 
+.Parallax {
+  height: 28em;
+}
+
+#Dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.65em;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 

@@ -3,3 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   /* justify-items: center; */
 }
+
+.Title {
+  text-decoration: underline 0.15em #aca358;
+}

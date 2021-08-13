@@ -15,7 +15,11 @@
     "material-ui-image": "^3.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+<<<<<<< HEAD
     "react-grid-gallery": "^0.5.5",
+=======
+    "react-parallax": "^3.3.0",
+>>>>>>> 21266c5f67252d03ff40041daf04d43ea57511c3
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },

@@ -1,4 +1,13 @@
+.Menu-title-container {
+  height: 80vh;
+  width: 100vw;
+}
+
 .Menu-title-text {
   color: white;
-  background-color: red;
+  background-color: #cb2212;
+  padding: 5px;
+  width: 21em;
+  border-radius: 1%;
+  line-height: 0.15em;
 }
