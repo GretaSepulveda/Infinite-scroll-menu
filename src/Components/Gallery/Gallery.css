@@ -1,4 +1,15 @@
+.Gallery {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    
+}
 .Gallery-header {
-  line-height: 0.15em;
-  text-align: center;
+line-height: 0.15em;
+text-align: center;
+}
+
+.BurgerGrilling {
+display: grid;
+
 }
