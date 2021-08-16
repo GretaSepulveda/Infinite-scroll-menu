@@ -4,7 +4,7 @@ import PotStickers from "../Images/PotStickers.jpeg";
 
 export default function About() {
   return (
-    <div className="Story-Container">
+    <div className="Story-Container" id="About-us">
       <div className="Our-Story">
         <h4>
           Until I discovered cooking I was never really interested in anything
