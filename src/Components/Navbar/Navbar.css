@@ -1,1 +1,19 @@
 
+    .MuiToolbar-root {
+        justify-content: flex-end;
+        display: flex;
+        position: relative;
+        align-items: right;
+    }
+
+    .classes.root {
+    align-content: right;
+    align-items: right;
+    justify-content: flex-end;
+    }
+
+    
+        
+    .MuiAppBar-rootMuiAppBar-positionStaticMuiAppBar-colorTransparentMuiPaper-elevation4 {
+    justify-content: flex-end;
+    }

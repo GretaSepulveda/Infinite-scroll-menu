@@ -10,6 +10,7 @@ import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
 
+
 function App() {
   const [loading, setLoading] = useState(false);
 
