@@ -1,5 +1,5 @@
 import "./Components/FontAwesomeIcon";
-
+import ImageSliderComponent from "ImageSliderComponent";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Menu from "./Components/Menu/Menu";
@@ -18,8 +18,12 @@ function App() {
       <Menu />
       <Gallery />
       <Footer />
+      <ImageSliderComponent />
     </div>
   );
 }
 
 export default App;
+
+
+
