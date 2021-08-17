@@ -1,3 +1,7 @@
+.Title {
+  padding-top: 3em;
+}
+
 .Signature {
   display: flex;
   text-align: center;
@@ -5,5 +9,5 @@
 }
 
 .Signature-Container {
-  padding-top: 2em;
+  padding: 1em;
 }
