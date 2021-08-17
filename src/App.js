@@ -10,6 +10,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
+import FindUs from "./Components/FindUs/FindUs";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -38,6 +39,7 @@ function App() {
           <About />
           <Menu />
           <Gallery />
+          <FindUs />
           <Footer />
         </div>
       )}

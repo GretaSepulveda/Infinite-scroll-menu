@@ -18,7 +18,9 @@ export default function ButtonAppBar() {
           Gallery
         </Link>
         <Link id="link">News</Link>
-        <Link id="link">Find Us</Link>
+        <Link to="FindUs" smooth={true} duration={1000} id="link">
+          Find Us
+        </Link>
         <Link id="link">Reservation</Link>
       </div>
     </div>
