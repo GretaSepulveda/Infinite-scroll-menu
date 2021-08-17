@@ -1,7 +1,9 @@
+
+import "./Components/FontAwesomeIcon";
+import ImageSliderComponent from "ImageSliderComponent";
 import React, { useState, useEffect } from "react";
 // import { css } from "@emotion/css";
 import BounceLoader from "react-spinners/BounceLoader";
-
 import "./Components/FontAwesomeIcon";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
@@ -23,6 +25,15 @@ function App() {
 
   return (
     <div className="App">
+
+      <Navbar />
+      <Carousel />
+      <About />
+      <Menu />
+      <Gallery />
+      <Footer />
+      <ImageSliderComponent />
+
       {loading ? (
         <BounceLoader
           size={130}
@@ -41,8 +52,12 @@ function App() {
           <Footer />
         </div>
       )}
+
     </div>
   );
 }
 
 export default App;
+
+
+
