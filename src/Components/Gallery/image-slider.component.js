@@ -1,10 +1,10 @@
 import React from "react";
-import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+// import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 
 const images = [
 {
-    original: "galleryimage.jpeg",
+    original: "galleryimage",
     thumbnail: "galleryimage.jpeg",
 },
 {
@@ -48,7 +48,7 @@ render() {
         <button onClick={this.onFullscreen}>FullScreen</button>
         <button onClick={this.onPlay}>Play</button>
         <button onClick={this.onPause}>Pause</button>
-        <button onClick={this.onMoveToSlide}>SlideTo 3rd Slide</button>
+        <button onClick={this.onMoveToSlide}>Slide To 3rd Slide</button>
     </div>
     );
 }

@@ -1,6 +1,6 @@
 
 import "./Components/FontAwesomeIcon";
-import ImageSliderComponent from "ImageSliderComponent";
+
 import React, { useState, useEffect } from "react";
 // import { css } from "@emotion/css";
 import BounceLoader from "react-spinners/BounceLoader";
@@ -26,13 +26,13 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar />
+      {/* <Navbar />
       <Carousel />
       <About />
       <Menu />
       <Gallery />
-      <Footer />
-      <ImageSliderComponent />
+      <Footer /> */}
+
 
       {loading ? (
         <BounceLoader
