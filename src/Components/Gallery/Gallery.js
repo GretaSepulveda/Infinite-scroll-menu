@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSliderComponent from "./image-slider.component";
 import "./Gallery.css";
 
 export default function Gallery() {
@@ -8,6 +9,7 @@ export default function Gallery() {
         <mark class="Specific-text">Image</mark>
       </h4>
       <h3>Gallery</h3>
+      <ImageSliderComponent />
     </div>
   );
 }
