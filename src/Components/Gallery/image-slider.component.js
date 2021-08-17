@@ -48,7 +48,7 @@ render() {
         <button onClick={this.onFullscreen}>FullScreen</button>
         <button onClick={this.onPlay}>Play</button>
         <button onClick={this.onPause}>Pause</button>
-        <button onClick={this.onMoveToSlide}>Slide To 3rd Slide</button>
+        
     </div>
     );
 }
