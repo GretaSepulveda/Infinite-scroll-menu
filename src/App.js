@@ -1,10 +1,8 @@
 
 import "./Components/FontAwesomeIcon";
-
 import React, { useState, useEffect } from "react";
 // import { css } from "@emotion/css";
 import BounceLoader from "react-spinners/BounceLoader";
-import "./Components/FontAwesomeIcon";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Menu from "./Components/Menu/Menu";
@@ -12,6 +10,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
+
 
 function App() {
   const [loading, setLoading] = useState(false);
