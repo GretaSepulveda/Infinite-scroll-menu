@@ -1,5 +1,7 @@
 .FindUs-Container {
   line-height: 0.15em;
+  display: flex;
+  flex-direction: row;
 }
 
 .Location {
@@ -7,5 +9,6 @@
   background-color: #cb2212;
   padding: 0.75em;
   width: 20em;
+  height: 9em;
   border-radius: 1%;
 }
