@@ -46,9 +46,6 @@ class ImageSliderComponent extends React.Component {
       <div className="wrapper">
         <ImageGallery items={images} ref={this.myImageRef} />
         <button onClick={this.onFullscreen}>FullScreen</button>
-        <button onClick={this.onPlay}>Play</button>
-        <button onClick={this.onPause}>Pause</button>
-        <button onClick={this.onMoveToSlide}>SlideTo 3rd Slide</button>
       </div>
     );
   }
