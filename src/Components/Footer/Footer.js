@@ -25,6 +25,7 @@ export default function Footer() {
           <FontAwesomeIcon icon="envelope" color="grey" />
           info@grandrestauranttheme.com
         </p>
+        <a href="#home" class="Nav-container"><i class="fa fa-arrow-up w3-margin-right" aria-hidden="true"></i>Click here to go back to the TOP.</a>
       </div>
     </div>
   );
