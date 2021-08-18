@@ -1,19 +1,17 @@
+.Nav-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  cursor: pointer;
+  background-color: transparent;
+}
 
-    .MuiToolbar-root {
-        justify-content: flex-end;
-        display: flex;
-        position: relative;
-        align-items: right;
-    }
+#link {
+  padding: 0.55em;
+  border-radius: 3%;
+}
 
-    .classes.root {
-    align-content: right;
-    align-items: right;
-    justify-content: flex-end;
-    }
-
-    
-        
-    .MuiAppBar-rootMuiAppBar-positionStaticMuiAppBar-colorTransparentMuiPaper-elevation4 {
-    justify-content: flex-end;
-    }
+#link:hover {
+  color: white;
+  background-color: grey;
+}

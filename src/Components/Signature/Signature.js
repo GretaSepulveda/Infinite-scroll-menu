@@ -1,5 +1,5 @@
 import React from "react";
-import "./Signature.js";
+import "./Signature.css";
 
 export default function Signature() {
   return (
