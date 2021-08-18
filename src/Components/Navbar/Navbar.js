@@ -1,42 +1,28 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
 import { Link } from "react-scroll";
-
-const useStyles = makeStyles(() => ({
-  root: {
-    flexGrow: 1,
-  },
-  links: {
-    display: "flex",
-    justifyContent: "flex-end",
-  },
-}));
+import "./Navbar.css";
 
 export default function ButtonAppBar() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <AppBar position="static" color="transparent">
-        <Toolbar className={classes.links}>
-          <Link>Welcome</Link>
-          <Link to="About-us" smooth={true} duration={1000}>
-            About Us
-          </Link>
+    <div className="Nav-container">
+      <div className="Navbar">
+        <Link id="link">Welcome</Link>
+        <Link to="About-us" smooth={true} duration={1000} id="link">
+          About Us
+        </Link>
 
-          <Link to="Menu" smooth={true} duration={1000}>
-            Menu
-          </Link>
-          <Link to="Gallery" smooth={true} duration={1000}>
-            Gallery
-          </Link>
-          <Link>News</Link>
-          <Link>Find Us</Link>
-          <Link>Reservation</Link>
-        </Toolbar>
-      </AppBar>
+        <Link to="Menu" smooth={true} duration={1000} id="link">
+          Menu
+        </Link>
+        <Link to="Gallery" smooth={true} duration={1000} id="link">
+          Gallery
+        </Link>
+        <Link id="link">News</Link>
+        <Link to="FindUs" smooth={true} duration={1000} id="link">
+          Find Us
+        </Link>
+        <Link id="link">Reservation</Link>
+      </div>
     </div>
   );
 }

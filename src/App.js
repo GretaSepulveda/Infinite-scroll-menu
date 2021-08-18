@@ -1,4 +1,3 @@
-
 import "./Components/FontAwesomeIcon";
 import React, { useState, useEffect } from "react";
 // import { css } from "@emotion/css";
@@ -10,6 +9,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
+import FindUs from "./Components/FindUs/FindUs";
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+
 
       {/* <Navbar />
       <Carousel />
@@ -48,15 +49,12 @@ function App() {
           <About />
           <Menu />
           <Gallery />
+          <FindUs />
           <Footer />
         </div>
       )}
-
     </div>
   );
 }
 
 export default App;
-
-
-
