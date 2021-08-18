@@ -1,5 +1,5 @@
 import React from "react";
-// import Map from "../Map/Map";
+// import Map from "../Images/map.png";
 import "./FindUs.css";
 
 export default function FindUs() {
@@ -17,5 +17,3 @@ export default function FindUs() {
     </div>
   );
 }
-
-// commenting out map for future use
