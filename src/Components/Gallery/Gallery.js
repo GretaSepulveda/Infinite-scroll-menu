@@ -1,7 +1,7 @@
 import React from "react";
 import ImageSliderComponent from "./image-slider.component";
 import "./Gallery.css";
-import ImageSliderComponent from "./image-slider.component";
+
 
 export default function Gallery() {
   return (
