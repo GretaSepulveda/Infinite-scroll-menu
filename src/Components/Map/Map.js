@@ -31,4 +31,4 @@
 //   );
 // }
 
-// Commenting out the maps configuration. This file will be used for later iterations
+// commenting out for future use
