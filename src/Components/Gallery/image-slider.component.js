@@ -46,8 +46,7 @@ render() {
     <div className="wrapper">
         <ImageGallery items={images}  ref={this.myImageRef} />
         <button onClick={this.onFullscreen}>FullScreen</button>
-        <button onClick={this.onPlay}>Play</button>
-        <button onClick={this.onPause}>Pause</button>
+        
         
     </div>
     );
