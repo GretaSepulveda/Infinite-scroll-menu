@@ -19,7 +19,8 @@
 
 .Discover-story {
   transform: translate3d(-55px, 65px, 10px) perspective(500px);
-  background-color: white;
+  background-color: #cb2212;
+  color: white;
   height: 6em;
   width: 12em;
   border-radius: 1%;

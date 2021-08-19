@@ -2,6 +2,7 @@
   line-height: 0.15em;
   display: flex;
   flex-direction: row;
+  padding: 4em;
 }
 
 .Location {
@@ -11,4 +12,9 @@
   width: 20em;
   height: 9em;
   border-radius: 1%;
+  transform: translate3d(-55px, 65px, 10px) perspective(500px);
+}
+
+.Map {
+  width: 35em;
 }
