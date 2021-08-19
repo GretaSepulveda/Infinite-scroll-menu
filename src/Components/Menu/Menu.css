@@ -21,11 +21,13 @@
 
   .Lunch-Sets {
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .Dinner {
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
   }
 }
