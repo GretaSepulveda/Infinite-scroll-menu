@@ -6,7 +6,6 @@ export default function ButtonAppBar() {
   return (
     <div className="Nav-container">
       <div className="Navbar">
-        <Link id="link">Welcome</Link>
         <Link to="About-us" smooth={true} duration={1000} id="link">
           About Us
         </Link>

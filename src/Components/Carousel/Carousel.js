@@ -5,7 +5,7 @@ import "./Carousel.css";
 
 export default function Carousel() {
   return (
-    <div className="Carousel-Container">
+    <div className="Carousel-Container" id="Welcome">
       <Parallax className="Carousel" bgImage={Dimsum}>
         <div className="Welcome-Message">
           <h4 id="Dancing-script">
