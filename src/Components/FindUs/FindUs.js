@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "../Map/Map";
+import Map from "../Images/map.png";
 import "./FindUs.css";
 
 export default function FindUs() {
@@ -14,7 +14,7 @@ export default function FindUs() {
         <p>1 800 456 6743</p>
       </div>
       <div className="Map-Child-Container">
-        <Map />
+        <img src={Map} alt="Google map"></img>
       </div>
     </div>
   );
