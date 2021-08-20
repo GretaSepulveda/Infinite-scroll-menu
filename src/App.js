@@ -11,7 +11,6 @@ import Footer from "./Components/Footer/Footer";
 import Gallery from "./Components/Gallery/Gallery";
 import FindUs from "./Components/FindUs/FindUs";
 
-
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -24,23 +23,12 @@ function App() {
 
   return (
     <div className="App">
-
-
-      {/* <Navbar />
-      <Carousel />
-      <About />
-      <Menu />
-      <Gallery />
-      <Footer /> */}
-
-
       {loading ? (
         <BounceLoader
           size={130}
           color={"#aca358"}
           loading={loading}
           speedMultiplier={1.5}
-          // css={override}
         />
       ) : (
         <div>

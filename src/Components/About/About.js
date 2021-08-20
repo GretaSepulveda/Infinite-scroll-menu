@@ -21,7 +21,7 @@ export default function About() {
         />
         <div className="Discover-story">
           <h4 className="Discover" id="Dancing-script">
-            <mark className="Specific-text">Discover</mark>
+            Discover
           </h4>
           <p>our story</p>
         </div>
