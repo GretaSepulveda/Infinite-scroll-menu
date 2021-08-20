@@ -3,11 +3,8 @@ import MenuTitle from "../MenuTitle/MenuTitle";
 import Signature from "../Signature/Signature";
 import Lunchsets from "../Lunchsets/Lunchsets";
 import Dinner from "../Dinner/Dinner";
+import HomeButton from "../HomeButton/HomeButton";
 import "./Menu.css";
-
-// function homeButton() {
-
-// }
 
 export default function Menu() {
   return (
@@ -16,6 +13,7 @@ export default function Menu() {
       <Signature />
       <Lunchsets />
       <Dinner />
+      <HomeButton />
     </div>
   );
 }
