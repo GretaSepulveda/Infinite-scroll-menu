@@ -8,11 +8,13 @@ import "./Menu.css";
 
 export default function Menu() {
   return (
-    <div className="Menu-Container" id="Menu">
-      <MenuTitle />
-      <Signature />
-      <Lunchsets />
-      <Dinner />
+    <div>
+      <div className="Menu-Container" id="Menu">
+        <MenuTitle />
+        <Signature />
+        <Lunchsets />
+        <Dinner />
+      </div>
       <HomeButton />
     </div>
   );
