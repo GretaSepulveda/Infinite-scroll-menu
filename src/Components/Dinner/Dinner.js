@@ -49,7 +49,7 @@ export default function Dinner() {
           </p>
         </div>
         <div>
-          <h5>LEMON_ROSEMARY CHICKEN $18.9</h5>
+          <h5>LEMON ROSEMARY CHICKEN $18.9</h5>
           <p>Chicken/ Rosemary/ Lemon</p>
         </div>
         <div>
