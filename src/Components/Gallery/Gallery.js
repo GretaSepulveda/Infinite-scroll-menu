@@ -1,17 +1,74 @@
 import React from "react";
-// import { render } from "react-dom";
-// import Gallery from "react-grid-gallery";
-import ImageSliderComponent from "./image-slider.component";
+import Gallery from "react-grid-gallery";
 import "./Gallery.css";
+
+const IMAGES = [
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    alt: "Dim sum",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Dim sum",
+  },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2021/01/27/13/08/chicken-5954894_960_720.jpg",
+    alt: "Salt fried chicken",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2021/01/27/13/08/chicken-5954894_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Salt fried chicken",
+  },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2021/03/10/05/49/soft-shell-crab-6083580_960_720.jpg",
+    alt: "Crab curry",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2021/03/10/05/49/soft-shell-crab-6083580_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "crab curry",
+  },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    alt: "Dim sum",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    isSelected: true,
+    caption: "Dim sum",
+  },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    alt: "Dim sum",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    isSelected: true,
+    caption: "Dim sum",
+  },
+];
 
 export default function GridGallery() {
   return (
-    <div className="Gallery-header" id="Gallery">
-      <h4 id="Dancing-script">
-        <mark class="Specific-text">Image</mark>
-      </h4>
-      <h3>Gallery</h3>
-      <ImageSliderComponent />
+    <div className="Gallery-Parent-Container">
+      <div className="Gallery-header" id="Gallery">
+        <h4 id="Dancing-script">
+          <mark class="Specific-text">Image</mark>
+        </h4>
+        <h4>Gallery</h4>
+        <div className="Gallery-Container">
+          <Gallery images={IMAGES} />
+        </div>
+      </div>
     </div>
   );
 }
