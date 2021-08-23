@@ -35,25 +35,25 @@ const IMAGES = [
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
-    alt: "Dim sum",
+      "https://cdn.pixabay.com/photo/2016/08/05/07/15/pizza-1571697_960_720.jpg",
+    alt: "Baked potato pizza",
     thumbnail:
-      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2016/08/05/07/15/pizza-1571697_960_720.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    isSelected: true,
-    caption: "Dim sum",
+    // isSelected: true,
+    caption: "Baked potato pizza",
   },
   {
     src:
-      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
-    alt: "Dim sum",
+      "https://cdn.pixabay.com/photo/2020/09/13/15/41/steak-5568608_960_720.jpg",
+    alt: "Grilled steak",
     thumbnail:
-      "https://cdn.pixabay.com/photo/2015/09/05/20/00/dim-sum-924912_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2020/09/13/15/41/steak-5568608_960_720.jpg",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
-    isSelected: true,
-    caption: "Dim sum",
+    // isSelected: true,
+    caption: "Grilled steak",
   },
 ];
 
