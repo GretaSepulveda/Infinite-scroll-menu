@@ -1,15 +1,30 @@
 import React from "react";
-import ImageSliderComponent from "./image-slider.component";
-import "./Gallery.css";
+import Imgix from "react-imgix";
+import Burgergrilling from "Images";
 
-export default function Gallery() {
-  return (
-    <div className="Gallery-header" id="Gallery">
-      <h4 id="Dancing-script">
-        <mark class="Specific-text">Image</mark>
-      </h4>
-      <h3>Gallery</h3>
-      <ImageSliderComponent />
-    </div>
-  );
-}
+
+const images = [
+  "",
+  
+  
+];
+
+
+
+export const Gallery = () => (
+  <div className="gallery">
+    {images.map(image => (
+      <Imgix
+        sizes="(min-width: 960px) 33vw, (min-width: 640px) 50vw, 100vw"
+        src={buildURL(image)}
+        key={image}
+        imgixParams={{
+          fit: "crop",
+          fm: "jpg"
+        }}
+        width="600"
+        height="600"
+      />
+    ))}
+  </div>
+);
