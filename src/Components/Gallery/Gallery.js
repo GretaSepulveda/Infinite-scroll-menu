@@ -1,8 +1,10 @@
 import React from "react";
+// import { render } from "react-dom";
+// import Gallery from "react-grid-gallery";
 import ImageSliderComponent from "./image-slider.component";
 import "./Gallery.css";
 
-export default function Gallery() {
+export default function GridGallery() {
   return (
     <div className="Gallery-header" id="Gallery">
       <h4 id="Dancing-script">

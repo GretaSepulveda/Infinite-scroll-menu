@@ -20,7 +20,8 @@ export default function ButtonAppBar() {
         <Link to="FindUs" smooth={true} duration={1000} id="link">
           Find Us
         </Link>
-        <Link id="link">Reservation</Link>
+        {/* commenting out reservation tab until later iterations */}
+        {/* <Link id="link">Reservation</Link> */}
       </div>
     </div>
   );
