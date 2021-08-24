@@ -40,4 +40,7 @@
   .PotStickers-container {
     transform: none;
   }
+  .Discover-story {
+    transform: translate3d(-140px, 65px, 10px) perspective(500px);
+  }
 }
