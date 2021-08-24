@@ -5,9 +5,15 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="Footer-Container">
-      {/* <div>
-        <h5>Recent Posts</h5>
-      </div> */}
+
+      <div>
+        <h5>Social Media</h5>
+      </div>
+
+      * <div>
+        <h5>Social Media</h5>
+      </div> *
+
       <div>
         <h5>Gallery</h5>
       </div>
@@ -25,6 +31,8 @@ export default function Footer() {
           <FontAwesomeIcon icon="envelope" color="grey" />
           info@grandrestauranttheme.com
         </p>
+
+        <a href="#home" class="Nav-container"><i class="fa fa-arrow-up w3-margin-right" aria-hidden="true"></i>.</a>
       </div>
     </div>
   );
