@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="Loader">
       {loading ? (
         <BounceLoader
           size={130}
@@ -31,7 +31,7 @@ function App() {
           speedMultiplier={1.5}
         />
       ) : (
-        <div>
+        <div className="App">
           <Navbar />
           <Carousel />
           <About />

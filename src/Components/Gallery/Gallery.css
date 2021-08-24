@@ -1,18 +1,4 @@
-/* .Gallery {
-  display: grid;
-  overflow: hidden;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  
-} */
-
-/* .Gallery-Parent-Container {
-  padding: 1em;
-} */
 .Gallery-header {
   line-height: 0.15em;
   text-align: center;
-}
-
-.BurgerGrilling {
-  display: grid;
 }
