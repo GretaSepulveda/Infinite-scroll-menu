@@ -37,4 +37,7 @@
   .Our-Story {
     line-height: normal;
   }
+  .PotStickers-container {
+    transform: none;
+  }
 }
