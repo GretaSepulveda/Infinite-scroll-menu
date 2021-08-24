@@ -5,9 +5,9 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="Footer-Container">
-      {/* <div>
-        <h5>Recent Posts</h5>
-      </div> */}
+      * <div>
+        <h5>Social Media</h5>
+      </div> *
       <div>
         <h5>Gallery</h5>
       </div>
