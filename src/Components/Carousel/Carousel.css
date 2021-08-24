@@ -13,3 +13,9 @@
   color: #aca358;
   background: transparent;
 }
+
+@media only screen and (max-width: 500px) {
+  .Welcome-Message {
+    line-height: normal;
+  }
+}
