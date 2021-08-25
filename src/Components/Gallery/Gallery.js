@@ -54,6 +54,7 @@ const IMAGES = [
     thumbnailHeight: 212,
     // isSelected: true,
     caption: "Grilled steak",
+
   },
   {
     src:
@@ -76,7 +77,30 @@ const IMAGES = [
     thumbnailHeight: 212,
     // isSelected: true,
     caption: "Roasted chicken",
+
+
   },
+  {
+    src:
+      "https://cdn.pixabay.com/photo/2015/10/12/15/25/bar-984527_960_720.jpg",
+    alt: "Restaurant",
+    thumbnail:
+      "https://cdn.pixabay.com/photo/2015/10/12/15/25/bar-984527_960_720.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    // isSelected: true,
+    caption: "Restaurant",
+  },
+  // {
+  //   src:
+  //     "https://cdn.pixabay.com/photo/2018/08/13/13/37/roasted-chicken-3602956_960_720.jpg",
+  //   alt: "Roasted chicken",
+  //   thumbnail:
+  //     "https://cdn.pixabay.com/photo/2018/08/13/13/37/roasted-chicken-3602956_960_720.jpg",
+  //   thumbnailWidth: 320,
+  //   thumbnailHeight: 212,
+  //   caption: "Roasted chicken",
+  // },
 ];
 
 export default function GridGallery() {
@@ -93,4 +117,3 @@ export default function GridGallery() {
       </div>
     </div>
   );
-}

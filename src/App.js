@@ -8,7 +8,7 @@ import Menu from "./Components/Menu/Menu";
 import Carousel from "./Components/Carousel/Carousel";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-// import Gallery from "./Components/Gallery/Gallery";
+import GridGallery from "./Components/Gallery/Gallery";
 import FindUs from "./Components/FindUs/FindUs";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="Loader">
       {loading ? (
         <BounceLoader
           size={130}
@@ -31,12 +31,12 @@ function App() {
           speedMultiplier={1.5}
         />
       ) : (
-        <div>
+        <div className="App">
           <Navbar />
           <Carousel />
           <About />
           <Menu />
-          {/* <Gallery /> */}
+          <GridGallery />
           <FindUs />
           <Footer />
         </div>

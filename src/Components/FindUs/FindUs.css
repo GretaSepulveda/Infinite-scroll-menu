@@ -1,6 +1,6 @@
 .FindUs-Container {
   line-height: 0.15em;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 4em;
 }
@@ -25,5 +25,12 @@
   }
   .Location {
     display: none;
+  }
+  .FindUs-Container {
+    display: block;
+    padding: none;
+  }
+  .Map-Child-Container {
+    padding: none;
   }
 }
