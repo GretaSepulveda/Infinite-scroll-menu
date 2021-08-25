@@ -32,6 +32,8 @@
   .Our-Story {
     line-height: normal;
     font-size: 0.75em;
+    text-align: center;
+    padding-left: 6em;
   }
   .PotStickers-container {
     transform: none;
