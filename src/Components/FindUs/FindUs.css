@@ -1,6 +1,6 @@
 .FindUs-Container {
   line-height: 0.15em;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 4em;
 }
