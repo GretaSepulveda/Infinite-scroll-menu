@@ -8,7 +8,7 @@ import Menu from "./Components/Menu/Menu";
 import Carousel from "./Components/Carousel/Carousel";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
-// import Gallery from "./Components/Gallery/Gallery";
+import GridGallery from "./Components/Gallery/Gallery";
 import FindUs from "./Components/FindUs/FindUs";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
           <Carousel />
           <About />
           <Menu />
-          {/* <Gallery /> */}
+          <GridGallery />
           <FindUs />
           <Footer />
         </div>
