@@ -10,7 +10,7 @@ export default function MenuTitle() {
         <div className="Menu-title-text">
           <h3 id="Dancing-script">Chef</h3>
           <h3>Menu</h3>
-          <p>Check out our signature menus below now</p>
+          <p>Check out our signature menus below</p>
         </div>
       </Parallax>
     </div>
