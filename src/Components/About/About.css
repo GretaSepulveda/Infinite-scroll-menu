@@ -5,6 +5,7 @@
 
 .Our-Story {
   text-align: center;
+  padding: 0.5em;
 }
 .PotStickers-container {
   display: flex;
@@ -30,6 +31,9 @@
 @media only screen and (max-width: 500px) {
   .Our-Story {
     line-height: normal;
+    font-size: 0.75em;
+    text-align: center;
+    padding-left: 6em;
   }
   .PotStickers-container {
     transform: none;
